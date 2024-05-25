@@ -1,0 +1,174 @@
+
+.container {
+    padding: 20px;
+    border-radius: 5px;
+}
+
+  .fullheader{
+    position: fixed;
+    padding-left: 0;
+    background-color: rgb(224, 20, 131);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    font-family: Roboto;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    margin: 0;
+    white-space: nowrap;
+  }
+
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  .btn-container {
+    text-align: center; /* Center align the buttons */
+  }
+  input[type="submit"],
+  .cancel {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  input[type="submit"]:hover,
+  .cancel:hover {
+    background-color: #45a049;
+  }
+  .cancel {
+    background-color: #af4c4c;
+    margin-left: 10px;
+  }
+  .cancel:hover {
+    background-color: #a04545;
+  }
+  
+  .back-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .back-link a {
+    text-decoration: none;
+    background-color: #ddd;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  .back-link a:hover {
+    background-color: #ccc;
+  }
+  
+  .year-input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .manage-button {
+    display: inline-block;
+    background-color: #FFD700;
+    color: rgb(6, 6, 6);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .manage-button:hover {
+    background-color: #FFCA00;
+  }
+
+  .back-button {
+    display: inline-block;
+    background-color: rgba(128, 128, 128, 0.909);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  
+  .back-button:hover {
+    background-color:rgb(128, 128, 128);
+  }
+
+
+
+
+
+  
+  .read-container {
+    max-width: 1200px; /* Increased max-width for the container */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-x: auto; /* Add horizontal scroll if content overflows */
+}
+h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    white-space: nowrap; /* Prevent content from wrapping */
+}
+table th {
+    background-color: #f2f2f2;
+}
+table tr:hover {
+    background-color: #f9f9f9;
+}
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 5px;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+.btn-view {
+    background-color: #28a745;
+}
+.btn-edit {
+    background-color: #ffc107;
+}
+.btn-delete {
+    background-color: #dc3545;
+        }

@@ -1,0 +1,28 @@
+.header-SDG10{
+  position: fixed;
+  padding-left: 300px;
+  background-color: rgb(224, 20, 131);
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  font-family: Roboto;
+  text-align: match-parent;
+  color: white;
+  font-size: 20px;
+  padding-top: 10px;
+  margin: 0;
+  white-space: nowrap;
+  display: flex;
+}
+
+.point-system{
+  text-align: right;
+  flex: 1;
+}
+
+.header{
+  display: flex;
+  flex:1;
+  margin-top: 0px;
+}

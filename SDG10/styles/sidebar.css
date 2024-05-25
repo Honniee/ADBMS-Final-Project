@@ -1,0 +1,67 @@
+.sidebar {
+  position: fixed;
+  top: 0px;
+  left: 0;
+  width: 270px;
+  height: 100%;
+  background-color: rgb(224, 20, 131);
+  text-align: center;
+  z-index: 2;
+  overflow-y: auto;
+}
+
+.sidebar a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 5px;
+  display: block;
+}
+
+.sidebar a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+.sdg10-icon{
+  width: 250px;
+}
+
+.sdg10-picture{
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.Indicators{
+  color: white;
+  text-align: center;
+  font-family: RobotoCondensed, Arial;
+  font-size: 15px;
+}
+
+.home-button{
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.indicator1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom-color: white;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+
+.active-page {
+  background-color: rgba(255, 255, 255, 0.4); 
+}
+
+.active-page a {
+  color: #080707; 
+}
